@@ -1,4 +1,4 @@
-package cn.lijunhaoit.demo;
+package cn.lijunhaoit.demo.kafka;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.Producer;
@@ -6,6 +6,10 @@ import org.apache.kafka.clients.producer.ProducerRecord;
 
 import java.util.Properties;
 
+/**
+ * Kafka-生产者
+ * @author lijun
+ */
 public class ProducerDemo {
     public static void main(String[] args) {
         Properties kafkaProps=new Properties();

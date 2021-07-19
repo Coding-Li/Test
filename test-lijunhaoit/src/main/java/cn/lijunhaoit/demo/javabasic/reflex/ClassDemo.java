@@ -1,4 +1,4 @@
-package cn.lijunhaoit.demo.reflex;
+package cn.lijunhaoit.demo.javabasic.reflex;
 
 /**
  * 谈到反射第一个想到的就是Object对象和java.lang.Class对象

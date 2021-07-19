@@ -1,4 +1,4 @@
-package cn.lijunhaoit.demo;
+package cn.lijunhaoit.demo.kafka;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
@@ -7,6 +7,10 @@ import org.apache.kafka.clients.consumer.KafkaConsumer;
 import java.util.Arrays;
 import java.util.Properties;
 
+/**
+ * Kafka-消费者
+ * @author lijun
+ */
 public class ConsumerDemo {
     public static void main(String[] args)  throws Exception {
         Properties properties = new Properties();
