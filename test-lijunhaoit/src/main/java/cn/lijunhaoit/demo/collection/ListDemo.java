@@ -1,4 +1,4 @@
-package cn.lijunhaoit.test.collection;
+package cn.lijunhaoit.demo.collection;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -9,7 +9,7 @@ import java.util.List;
  * ArrayList，LinkList
  * @author lijun
  */
-public class ListTest {
+public class ListDemo {
     public static void main(String[] args) {
 
         int i = 10 >> 1;
