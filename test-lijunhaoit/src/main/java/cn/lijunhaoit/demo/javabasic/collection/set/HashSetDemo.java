@@ -6,6 +6,7 @@ import java.util.Iterator;
 
 /**
  * HashSet底层数据结构采用哈希表实现，元素无序且唯一，线程不安全，效率高，可以存储null元素，
+ * 内部是一个HashMap
  * 元素的唯一性是靠所存储元素类型是否重写hashCode()和equals()方法来保证的，如果没有重写这两个方法，则无法保证元素的唯一性。
  * @author lijun
  */
