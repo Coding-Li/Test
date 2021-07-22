@@ -1,5 +1,11 @@
 package cn.lijunhaoit.demo.javabasic.reflex;
 
+import sun.reflect.misc.ReflectUtil;
+
+import java.lang.reflect.Field;
+import java.util.Arrays;
+import java.util.HashMap;
+
 /**
  * 谈到反射第一个想到的就是Object对象和java.lang.Class对象
  * @author lijun
@@ -20,6 +26,10 @@ public class ClassDemo {
             e.printStackTrace();
         }
 
-
+        Class clazzNew = HashMap.class;
+        Field[] fields = clazzNew.getDeclaredFields();
+        for(Field field:fields){
+            System.out.println("field = " + field.getName()+","+ field.getType());
+        }
     }
 }
