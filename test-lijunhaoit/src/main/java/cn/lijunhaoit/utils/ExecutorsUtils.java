@@ -3,7 +3,7 @@ package cn.lijunhaoit.utils;
 import java.util.concurrent.*;
 
 /**
- * JAVA现成池工具
+ * JAVA线程池工具
  * @author lijun
  */
 public class ExecutorsUtils {
